@@ -103,19 +103,23 @@ TABLE_SCHEMA = 'perf_prod';
 # Demographic Analysis
 ## Age Distribution
 ```sql
--- Age distribution
-SELECT 
+SELECT
     age_bracket,
-    CONCAT(age_bracket, '-', age_bracket+4) AS age_range,
+    CONCAT(age_bracket, '-', age_bracket + 4) AS age_range,
     employee_count
-FROM (
-    SELECT 
-        FLOOR(Age/5)*5 AS age_bracket,
-        COUNT(*) AS employee_count
-    FROM employees
-    GROUP BY age_bracket
-) AS subquery;
-```
+FROM
+    (
+        SELECT
+            FLOOR(Age / 5) * 5 AS age_bracket,
+            COUNT(*) AS employee_count
+        FROM
+            employees
+        GROUP BY
+            FLOOR(Age / 5) * 5
+    ) AS age_groups
+ORDER BY
+    age_bracket;
+```sql
 
 **Key Insights**:
 - Balanced Multi-Generational Workforce: The organization has a balanced age distribution, with the 35-39 age group being the largest and the 60-64 group being the smallest.
