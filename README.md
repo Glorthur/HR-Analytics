@@ -119,7 +119,7 @@ FROM
     ) AS age_groups
 ORDER BY
     age_bracket;
-```sql
+```
 
 **Key Insights**:
 - Balanced Multi-Generational Workforce: The organization has a balanced age distribution, with the 35-39 age group being the largest and the 60-64 group being the smallest.
