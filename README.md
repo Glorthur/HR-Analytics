@@ -254,7 +254,7 @@ ORDER BY resignation_rate DESC;
    - Career Progression Clarity: Develop and communicate clear career paths, especially in departments with high attrition despite good satisfaction.
    - Targeted Stay Interviews: Conduct proactive stay interviews with high performers to identify retention risk factors beyond satisfaction.
 
-**Conclusion**
+# **Conclusion**
 The workforce analysis reveals an organization with standardized practices across performance management and compensation, but with notable variations in satisfaction and retention. While the consistency in certain metrics demonstrates organizational maturity, opportunities exist to introduce greater differentiation where appropriate.
 
 The data suggests that the organization would benefit from more tailored approaches to performance management, compensation, and retention strategies that acknowledge the unique characteristics of different departments and employee segments. By addressing these opportunities while maintaining its strengths in standardization and equity, the company can enhance both organizational performance and employee experience.
