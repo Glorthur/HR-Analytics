@@ -51,25 +51,33 @@ Data quality is crucial for accurate insights. The following checks were perform
 
 ## Check for Missing Values
 -- Check for missing values in key columns
---SELECT
-- COUNT(*) AS total_records,
-- SUM(CASE WHEN Employee_ID IS NULL THEN 1 ELSE 0 END) AS missing_employee_id,
-- SUM(CASE WHEN Department IS NULL THEN 1 ELSE 0 END) AS missing_department,
-- SUM(CASE WHEN Gender IS NULL THEN 1 ELSE 0 END) AS missing_gender,
-- SUM(CASE WHEN Age IS NULL THEN 1 ELSE 0 END) AS missing_age,
-- SUM(CASE WHEN Monthly_Salary IS NULL THEN 1 ELSE 0 END) AS missing_salary,
-- SUM(CASE WHEN Performance_Score IS NULL THEN 1 ELSE 0 END) AS missin
+```sql
+SELECT
+  COUNT(*) AS total_records,
+  SUM(CASE WHEN Employee_ID IS NULL THEN 1 ELSE 0 END) AS missing_employee_id,
+  SUM(CASE WHEN Department IS NULL THEN 1 ELSE 0 END) AS missing_department,
+  SUM(CASE WHEN Gender IS NULL THEN 1 ELSE 0 END) AS missing_gender,
+  SUM(CASE WHEN Age IS NULL THEN 1 ELSE 0 END) AS missing_age,
+  SUM(CASE WHEN Monthly_Salary IS NULL THEN 1 ELSE 0 END) AS missing_salary,
+  SUM(CASE WHEN Performance_Score IS NULL THEN 1 ELSE 0 END) AS missing_performance,
+  SUM(CASE WHEN Employee_Satisfaction_Score IS NULL THEN 1 ELSE 0 END) AS missing_satisfaction,
+  SUM(CASE WHEN Resigned IS NULL THEN 1 ELSE 0 END) AS missing_resignation
+FROM employees;
+```sql
+
 
 Insights: No missing values were found in the dataset.
 
 ## Check for Duplicate Records
 -- Check for duplicate employee records
+```sql
 SELECT
-Employee_ID,
-COUNT(*) AS record_count
+  Employee_ID,
+  COUNT(*) AS record_count
 FROM employees
 GROUP BY Employee_ID
 HAVING COUNT(*) > 1;
+```sql
 
 Insights: No duplicate records were found.
 
