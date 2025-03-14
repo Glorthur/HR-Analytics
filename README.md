@@ -1,4 +1,4 @@
-# HR-Analytics
+# Exploratory Data Analysis_HR-Analytics
 HR Analytics: Exploratory Data Analysis on employee retention and performance factors
 
 # Purpose
