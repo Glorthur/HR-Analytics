@@ -7,31 +7,30 @@ The purpose of this project was to perform exploratory data analysis on the perf
 ## Dataset Used
 The dataset comprises 100,000 rows of employee data, covering performance, productivity, and demographic information in a corporate setting. It contains details about employees' jobs, work habits, education, performance levels, and job satisfaction. This comprehensive dataset supports multiple analytical purposes, including HR analytics, predicting employee turnover, analyzing productivity, and evaluating performance. out of the total, 2525 rows were imported.
 
-*Brief Description of the Data*
-Employee_ID: Unique ID
-Department: Work area (Sales, HR, IT)
-Gender: Male, Female, Other
-Age: 22-60 years
-Job_Title: Role at company
-Hire_Date: Start date
-Years_At_Company: Time with company
-Education_Level: Highest degree
-Performance_Score: Rating (1-5)
-Monthly_Salary: Pay in USD
-Work_Hours_Per_Week: Weekly hours
-Projects_Handled: Project count
-Overtime_Hours: Extra hours/year
-Sick_Days: Days off sick
-Remote_Work_Frequency: % remote work
-Team_Size: People in team
-Training_Hours: Training time
-Promotions: Times promoted
-Employee_Satisfaction_Score: Rating (1-5)
-Resigned: Left company (Yes/No)
-Overview of the Dataset
--- Employee HR Analytics EDA
--- Comment out USE statement for now
--- USE perf_prod;
+- **Employee_ID**: Unique ID
+- **Department**: Work area (Sales, HR, IT)
+- **Gender**: Male, Female, Other
+- **Age**: 22-60 years
+- **Job_Title**: Role at company
+- **Hire_Date**: Start date
+- **Years_At_Company**: Time with company
+- **Education_Level**: Highest degree
+- **Performance_Score**: Rating (1-5)
+- **Monthly_Salary**: Pay in USD
+- **Work_Hours_Per_Week**: Weekly hours
+- **Projects_Handled**: Project count
+- **Overtime_Hours**: Extra hours/year
+- **Sick_Days**: Days off sick
+- **Remote_Work_Frequency**: % remote work
+- **Team_Size**: People in team
+- **Training_Hours**: Training time
+- **Promotions**: Times promoted
+- **Employee_Satisfaction_Score**: Rating (1-5)
+- **Resigned**: Left company (Yes/No)
+
+## Overview of the Dataset
+- **Employee HR Analytics EDA**: Comment out USE statement for now
+- **USE perf_prod**: Comment out USE statement
 
 -- 1. Basic overview of the dataset
 SELECT COUNT(*) AS total_employees FROM employees;
