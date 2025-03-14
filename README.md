@@ -104,7 +104,7 @@ Balanced Multi-Generational Workforce: The organization has a balanced age distr
 Demographic Stability: Consistent hiring practices and good retention across age groups.
 
 
-# Gender Distribution
+## Gender Distribution
 -- Gender distribution
 SELECT 
     Gender,
@@ -117,7 +117,7 @@ Key Insights:
 Near Gender Balance: The organization has a nearly balanced gender distribution (49.3% Male, 46.5% Female, 4.2% Other).
 Inclusive Representation: The presence of "Other" indicates diversity beyond binary classification.
 
-# Education Level Analysis
+## Education Level Analysis
 -- Performance by education level with additional metrics
 SELECT 
     Education_Level,
