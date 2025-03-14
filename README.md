@@ -7,6 +7,8 @@ The purpose of this project was to perform exploratory data analysis on the perf
 ## Dataset Used
 The dataset comprises 100,000 rows of employee data, covering performance, productivity, and demographic information in a corporate setting. It contains details about employees' jobs, work habits, education, performance levels, and job satisfaction. This comprehensive dataset supports multiple analytical purposes, including HR analytics, predicting employee turnover, analyzing productivity, and evaluating performance. out of the total, 2525 rows were imported.
 
+**Dataset Description**
+
 - **Employee_ID**: Unique ID
 - **Department**: Work area (Sales, HR, IT)
 - **Gender**: Male, Female, Other
