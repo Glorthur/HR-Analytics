@@ -1,8 +1,8 @@
 # Exploratory Data Analysis_HR-Analytics
 HR Analytics: Exploratory Data Analysis on employee retention and performance factors
 
-# Purpose
-The purpose of this project was to perform exploratory data analysis on the performance and productivity data, generate useful insights, and generate visualizations.
+# Problem Statement
+Employee retention and performance are critical aspects of organizational success. However, companies often struggle to identify the key factors that influence these metrics due to the complexity and volume of employee data. This project aims to perform an exploratory data analysis on employee retention and performance factors to uncover actionable insights that can help improve HR strategies, enhance employee satisfaction, and reduce attrition rates.
 
 ## Dataset Used
 The dataset comprises 100,000 rows of employee data, covering performance, productivity, and demographic information in a corporate setting. It contains details about employees' jobs, work habits, education, performance levels, and job satisfaction. This comprehensive dataset supports multiple analytical purposes, including HR analytics, predicting employee turnover, analyzing productivity, and evaluating performance. Out of the total, 2525 rows were imported.
